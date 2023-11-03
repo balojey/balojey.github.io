@@ -5,7 +5,7 @@
 
 ## Overview
 
-This repository contains my professional resume as a backend developer. You can view my full resume here to learn more about my background, skills, and project experience.
+This repository contains my professional resume as a backend developer. You can view my full resume [here](https://ademolab91.github.io/) to learn more about my background, skills, and project experience.
 
 ## Resume Details
 
