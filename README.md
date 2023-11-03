@@ -25,7 +25,7 @@ This repository contains my professional resume as a backend developer. You can 
 
 ## How to View the Resume
 
-You can view my complete resume by visiting [HERE](ademolab91.github.io). It's styled using Bulma CSS for a professional and visually appealing presentation.
+You can view my complete resume by visiting [HERE](https://ademolab91.github.io/). It's styled using Bulma CSS for a professional and visually appealing presentation.
 
 ## Contact
 
