@@ -1,35 +1,73 @@
-# Backend Developer Resume
+# CV Landing Page for Balogun Azeez Ademola
 
-![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin)
-![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat&logo=github)
+This project is a personal CV landing page for Balogun Azeez Ademola, showcasing his professional experience, technical skills, education, projects, languages, interests, and references. The page is designed using HTML and Bootstrap for a clean, responsive, and professional look.
 
-## Overview
+## Table of Contents
+- [Demo](#demo)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup](#setup)
+- [Usage](#usage)
+- [Customization](#customization)
+- [License](#license)
+- [Contact](#contact)
 
-This repository contains my professional resume as a backend developer. You can view my full resume [here](https://ademolab91.github.io/) to learn more about my background, skills, and project experience.
+## Demo
+You can view a live demo of the CV landing page [here](https://balojey.github.io).
 
-## Resume Details
+## Features
+- Responsive design for optimal viewing on different devices.
+- Clean and professional layout.
+- Easy navigation to different sections.
+- Integration with Bootstrap for styling.
+- Links to GitHub repositories for showcased projects.
+- Contact information with mail and phone links.
 
-- **Name:** Balogun Azeez Ademola
-- **Location:** Nigeria
-- **Email:** ademolabalogun91@gmail.com
-- **Phone:** +2348154369046
-- **LinkedIn:** [Connect with me](https://linkedin.com/in/ademola-balogun)
-- **GitHub:** [My GitHub profile](https://github.com/ademolab91)
+## Technologies Used
+- HTML5
+- CSS3
+- Bootstrap 4.5.2
+- JavaScript (for Bootstrap components)
 
-## Resume Sections
+## Setup
+To set up the project locally, follow these steps:
 
-1. **Objective:** A brief overview of my career goals and expertise as a backend developer.
-2. **Education:** Information about my current academic pursuit in Computer Engineering.
-3. **Skills:** A list of my technical skills and areas of expertise.
-4. **Projects:** Details about a notable project I've worked on, including a vCard generator web application.
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/balojey/balojey.github.io
+    ```
+2. **Navigate to the project directory**:
+    ```bash
+    cd balojey.github.io
+    ```
 
-## How to View the Resume
+## Usage
+To view the CV landing page:
 
-You can view my complete resume by visiting [HERE](https://ademolab91.github.io/). It's styled using Bulma CSS for a professional and visually appealing presentation.
+1. Open the `index.html` file in your web browser:
+    ```bash
+    open index.html
+    ```
+
+## Customization
+You can customize the content of the CV by editing the `index.html` file. Update the sections with your own information:
+- Header section for your name, contact details, and LinkedIn profile link.
+- Objective section to summarize your professional goals.
+- Technical Skills section to list your key skills.
+- Education section to detail your academic background.
+- Projects section to showcase your significant projects with descriptions and GitHub links.
+- Languages section to list the languages you speak.
+- Interests section to highlight your hobbies and interests.
+- References section to mention that references are available upon request.
+
+For styling customization, you can modify the Bootstrap classes or add your own styles in a separate CSS file and link it in the `index.html`.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
+For any questions or suggestions, please contact Balogun Azeez Ademola:
+- Email: [ademolabalogun91@gmail.com](mailto:ademolabalogun91@gmail.com)
+- LinkedIn: [LinkedIn Profile](#) *(Replace with actual LinkedIn URL)*
 
-Feel free to connect with me on LinkedIn or follow me on GitHub if you'd like to get in touch or learn more about my work.
-
-![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin)
-![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat&logo=github)
+---
