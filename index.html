@@ -5,25 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Balogun Azeez Ademola - CV</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+        header {
+            background: linear-gradient(135deg, #343a40 0%, #007bff 100%);
+            color: #fff;
+            padding: 20px 0;
+        }
+        header h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+        header p a {
+            color: #ffc107;
+            text-decoration: none;
+        }
+        header p a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            margin-bottom: 20px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 1.75em;
+        }
+        .list-unstyled li {
+            padding: 5px 0;
+        }
+        .list-unstyled li:not(:last-child) {
+            border-bottom: 1px solid #ddd;
+        }
+        a.btn-outline-primary {
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
-    <header class="bg-dark text-white text-center py-4">
-        <h1>Balogun Azeez Ademola</h1>
-        <p>
-            <a href="tel:+2348154369046" class="text-white">+2348154369046</a> | 
-            <a href="mailto:ademolabalogun91@gmail.com" class="text-white">ademolabalogun91@gmail.com</a> | 
-            <a href="#" class="text-white">LinkedIn Profile</a>
-        </p>
+    <header class="text-center">
+        <div class="container">
+            <h1>Balogun Azeez Ademola</h1>
+            <p>
+                <a href="tel:+2348154369046"><i class="fas fa-phone-alt"></i> +2348154369046</a> | 
+                <a href="mailto:ademolabalogun91@gmail.com"><i class="fas fa-envelope"></i> ademolabalogun91@gmail.com</a> | 
+                <a href="#"><i class="fab fa-linkedin"></i> LinkedIn Profile</a>
+            </p>
+        </div>
     </header>
 
     <div class="container my-5">
-        <section id="objective" class="mb-4">
-            <h2 class="border-bottom pb-2">Objective</h2>
+        <section id="objective">
+            <h2>Objective</h2>
             <p>Results-driven software engineer with over 5 years of experience in designing, developing, and maintaining robust and scalable software solutions. Adept at collaborating with cross-functional teams to deliver high-quality code and achieve project goals. Seeking to leverage my expertise in software development to contribute to a dynamic organization.</p>
         </section>
 
-        <section id="skills" class="mb-4">
-            <h2 class="border-bottom pb-2">Technical Skills</h2>
+        <section id="skills">
+            <h2>Technical Skills</h2>
             <ul class="list-unstyled">
                 <li>Programming Languages: Python, Javascript, C, Dart</li>
                 <li>Web Frameworks: FastAPI, Flask, Django, React, Flutter</li>
@@ -40,59 +87,59 @@
             </ul>
         </section>
 
-        <section id="education" class="mb-4">
-            <h2 class="border-bottom pb-2">Education</h2>
+        <section id="education">
+            <h2>Education</h2>
             <p>Bachelor's in Computer Engineering<br>University of Ilorin<br>Ilorin, Kwara State, Nigeria.<br>2024</p>
         </section>
 
-        <section id="projects" class="mb-4">
-            <h2 class="border-bottom pb-2">Projects</h2>
+        <section id="projects">
+            <h2>Projects</h2>
             <ul class="list-unstyled">
                 <li class="mb-3">
                     <strong>Startup Forge</strong><br>
                     Description: This API connects experienced founders and new founders by allowing each founder to seek the expertise of another founder.<br>
                     Technologies Used: FastAPI, PostgreSQL, FastAPI-users, SQLAlchemy, Fly<br>
-                    <a href="#">GitHub Repository</a>
+                    <a href="#" class="btn btn-outline-primary btn-sm"><i class="fab fa-github"></i> GitHub Repository</a>
                 </li>
                 <li class="mb-3">
                     <strong>Ava</strong><br>
                     Description: An AI-powered chat application meticulously crafted to enhance productivity and tackle coding-related hurdles within the SUI blockchain ecosystem.<br>
                     Technologies Used: Llama-index, Llama API, Atlas MongoDB, Streamlit<br>
-                    <a href="#">GitHub Repository</a>
+                    <a href="#" class="btn btn-outline-primary btn-sm"><i class="fab fa-github"></i> GitHub Repository</a>
                 </li>
                 <li class="mb-3">
                     <strong>Enefti</strong><br>
                     Description: An NFT marketplace that integrates circle’s programmable user-controlled wallets to streamline the challenges of wallet creation, and token transactions.<br>
                     Technologies Used: React, Material-UI, Circle programmable wallet<br>
-                    <a href="#">GitHub Repository</a>
+                    <a href="#" class="btn btn-outline-primary btn-sm"><i class="fab fa-github"></i> GitHub Repository</a>
                 </li>
                 <li class="mb-3">
                     <strong>Bugtracker API</strong><br>
                     Description: This Python web API allow teams work better by enabling every member on a team to submit and correct bugs. This app is geared towards developers, QA testers, project managers and product owners<br>
                     Technologies Used: FastAPI, MongoDB, FastAPI-users, BeanieODM<br>
-                    <a href="#">GitHub Repository</a>
+                    <a href="#" class="btn btn-outline-primary btn-sm"><i class="fab fa-github"></i> GitHub Repository</a>
                 </li>
                 <li class="mb-3">
                     <strong>vCard Generator</strong><br>
                     Description: This Python web application allows you to easily generate vCard files from data stored in an Excel sheet. With just a few simple steps, you can convert your contact information into vCard format, making it compatible with various contact management and email applications.<br>
                     Technologies Used: Flask, Pandas<br>
-                    <a href="#">GitHub Repository</a>
+                    <a href="#" class="btn btn-outline-primary btn-sm"><i class="fab fa-github"></i> GitHub Repository</a>
                 </li>
             </ul>
         </section>
 
-        <section id="languages" class="mb-4">
-            <h2 class="border-bottom pb-2">Languages</h2>
+        <section id="languages">
+            <h2>Languages</h2>
             <p>English (Fluent)<br>Arabic (Conversational)</p>
         </section>
 
-        <section id="interests" class="mb-4">
-            <h2 class="border-bottom pb-2">Interests</h2>
+        <section id="interests">
+            <h2>Interests</h2>
             <p>Open-source contributions<br>Hackathons<br>Hiking and outdoor activities</p>
         </section>
 
-        <section id="references" class="mb-4">
-            <h2 class="border-bottom pb-2">References</h2>
+        <section id="references">
+            <h2>References</h2>
             <p>Available upon request.</p>
         </section>
     </div>
@@ -101,4 +148,4 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-  </html>
+</html>
